@@ -14,5 +14,5 @@ export default function Page() {
 }
 
 export const metadata = {
-  title: 'GSAP Transitions | Just Mila',
+  title: 'GSAP Image Zoom | Just Mila',
 }
