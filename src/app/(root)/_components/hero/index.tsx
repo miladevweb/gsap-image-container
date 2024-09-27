@@ -3,7 +3,7 @@ import styles from './index.module.css'
 import { GET_IMAGE } from '@/constants'
 
 export default function Hero() {
-  const { url, label } = GET_IMAGE(1)
+  const { url, label } = GET_IMAGE(7)
 
   return (
     <section className="relative h-screen overflow-clip z-50">
