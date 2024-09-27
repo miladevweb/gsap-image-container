@@ -24,7 +24,6 @@ export default function Caption() {
           end: '+=3000 bottom',
           scrub: true,
           pin: true,
-          markers: true,
           pinSpacing: false,
           /* When we give a specific number of pixels to END property, thos pixels minus the height of the trigger give a padding bottom, with pinSpacing in false, we can remove this padding bottom. */
 
