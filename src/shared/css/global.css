@@ -9,12 +9,24 @@
     --primary: #db2500;
   }
 
+  html {
+    scrollbar-width: none;
+  }
+
   body {
     @apply bg-background text-foreground min-h-screen overflow-x-clip;
   }
 
+  h1 {
+    @apply text-[10rem] uppercase;
+  }
+
+  span {
+    @apply text-xs;
+  }
+
   picture {
-    @apply block;
+    @apply block relative;
   }
 
   img {

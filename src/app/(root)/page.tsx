@@ -1,8 +1,15 @@
+import { Hero, Footer, Caption, Grid } from './_components'
+
 export default function Page() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Hero />
+
+      <Caption />
+      <Grid />
+
+      <Footer />
+    </>
   )
 }
 
